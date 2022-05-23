@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "surname": "andrey",
+    "number": "+375 (44) 785 23 55"
+  },
+  {
+    "id": 1,
+    "surname": "vika",
+    "number": "+375 (29) 457 36 66"
+  },
+  {
+    "id": 2,
+    "surname": "alesya",
+    "number": "+375 (25) 457 69 78"
+  },
+  {
+    "id": 3,
+    "surname": "larisa",
+    "number": "+375 (29) 566 66 77"
+  },
+  {
+    "id": 4,
+    "surname": "zhenya",
+    "number": "+375 (33) 648 25 45"
+  },
+  {
+    "id": 5,
+    "surname": "max",
+    "number": "+375 (29) 321 47 22"
+  },
+  {
+    "id": 6,
+    "surname": "dima",
+    "number": "+375 (25) 632 47 78"
+  },
+  {
+    "id": 7,
+    "surname": "sveta",
+    "number": "+375 (29) 547 98 32"
+  },
+  {
+    "id": 8,
+    "surname": "alisa",
+    "number": "+375 (33) 778 25 78"
+  },
+  {
+    "id": 9,
+    "surname": "alex",
+    "number": "+375 (44) 784 35 41"
+  }
+]

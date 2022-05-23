@@ -1,0 +1,42 @@
+<div class="directory-group list">
+    <div class="list-numbers">
+        {{#each numbers}}
+        {{>record}}
+        {{/each}}
+    </div>
+</div>
+
+<div class="directory-group edit" data-key="{{targetNumber.id}}">
+    <div class="controls-wrapper-add">
+        <input type="text" name="surname" placeholder="ФИО" value="{{targetNumber.surname}}"
+            oninput="lockRemoveButton()">
+    </div>
+    <div class="controls-wrapper-add">
+        <input type="text" name="number" placeholder="Телефон" value="{{targetNumber.number}}"
+            oninput="lockRemoveButton()">
+    </div>
+</div>
+
+<!--<div class="controls-wrapper-add">
+    <div class="directory-group-add">
+        <a onclick="updateRecord()">Ok</a>
+    </div>
+    <div class="directory-group-add">
+        <button onclick="deleteRecord()" id="remove-button">Remove</button>
+    </div>
+    <div class="directory-group-add">
+        <a onclick="{{cancel}}">Cancel</a>
+    </div>
+</div>-->
+
+<div class="controls-wrapper-add">
+    <button class="directory-group-add">
+        <a onclick="updateRecord()">Ok</a>
+    </button>
+    <button id="remove-button" class="directory-group-add">
+        <a onclick="deleteRecord()">Remove</a>
+    </button>
+    <button class="directory-group-add">
+        <a onclick="{{cancel}}">Cancel</a>
+    </button>
+</div>

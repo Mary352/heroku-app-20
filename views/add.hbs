@@ -1,0 +1,29 @@
+<div class="directory-group list">
+    <div class="list-numbers">
+        {{#each numbers}}
+        {{>record}}
+        {{/each}}
+    </div>
+</div>
+
+<div class="directory-group edit">
+    <input type="text" name="surname" placeholder="ФИО">
+    <input type="text" name="number" placeholder="Телефон">
+</div>
+
+<!--<div class="controls-wrapper-add">
+    <div class="directory-group-add">
+        <a onclick="addRecord()">Add</a>
+    </div>
+    <div class="directory-group-add">
+        <a onclick="{{cancel}}">Cancel</a>
+    </div>
+</div>-->
+<div class="controls-wrapper-add">
+    <button class="directory-group-add">
+        <a onclick="addRecord()">Добавить</a>
+    </button>
+    <button class="directory-group-add">
+        <a onclick="{{cancel}}">Отказаться</a>
+    </button>
+</div>
